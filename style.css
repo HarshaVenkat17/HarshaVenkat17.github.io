@@ -1,0 +1,106 @@
+body {
+  background:black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;/*fixed*/
+  background-size: cover;
+  height: 400px;
+  /*background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),center,center,fixed;
+  background-repeat: no-repeat;
+  height: 608px;
+  font-size: 16px;
+  color: #f2efe2;
+  font-family: 'Goudy Bookletter 1911', cursive;
+  font-family: 'Kaushan Script', cursive;*/
+}
+#name{
+  width: 50vw;
+  height:8vw;
+  display: block;
+  margin-top: 3vw;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+	/*color:green;
+	text-align: center;
+  margin-top: 30px;
+	margin-bottom:0vw;
+  font-size: 7vw;*/
+}
+.change{
+	color: white;
+	font-size: 3vw;
+  padding-bottom: 0px;
+}
+#desc{
+	color: white;
+	font-size: 1.7vw;
+	padding-top: 1vw;
+}
+.image-container {
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+.mic-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 80%;
+}
+.wave{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 80%;
+}
+.container {
+  position: relative;
+  border: 15px solid #ffffff;
+  width: 40vw;
+  max-width: 60vw;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  background: #e3d8a8;
+  padding: 0.2rem 1rem;
+  color: #1e2440;
+  overflow: scroll;
+  margin-top: 12vh;
+}
+.text-box {
+  max-height: 70vh;
+  overflow: scroll;
+}
+.text-box:focus {
+  outline: none;
+}
+.text-box p {
+  border-bottom: 1px dotted black;
+  margin: 0px !important;
+}
+
+.fa {
+  color:black;
+  background:#ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 1rem;
+  float: right;
+  width: 2rem;
+  height: 2rem;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 85vw;
+    max-width: 85vw;
+  }
+.text-box {
+    max-height: 55vh;
+  }
+}
